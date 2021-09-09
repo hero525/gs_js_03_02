@@ -1,0 +1,29 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+::selection{
+  color: black;
+  background: black;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  /* overflow: hidden; */
+  padding: 10px;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%);
+  text-align: center;
+}
+
+h1{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.output{
+  display: flex;
+}
